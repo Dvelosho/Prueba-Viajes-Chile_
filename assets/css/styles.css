@@ -1,3 +1,40 @@
-body {
-    background: #ffffff;
+body{
+  background-color: black;
+}
+main{
+  margin:0;
+  padding:0;
+  background-color: black;
+}
+header, span {
+  color: white;
+}
+/*.navbar-custom {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(128, 128, 128, 0.5));
+}
+*/
+.somos{
+  padding: 50px;
+}
+.somos h2{
+  font-size: 2em;
+  font-family: "Cabin", sans-serif;
+  font-weight: 600;
+  margin: 50px 0;
+}
+.somos .card{
+  margin:10px;
+  padding: 0;
+  width: 30%;
+  background-color: black;
+}
+.somos .card-header,.card-footer{
+  background-color: #0DCAF0;
+}
+.somos .card-body p{
+  color:white;
+  padding:1px;
+}
+.label-white-text {
+  color: white;
 }
